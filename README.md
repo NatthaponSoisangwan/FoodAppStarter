@@ -5,12 +5,14 @@ A barebones Django app, which can easily be deployed to Heroku.
 This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
 
 ## Do These Things For Team Purple
+```
 $ git clone https://github.com/heroku/python-getting-started.git
 $ cd python-getting-started
 $ python -m venv getting-started
 $ pip install -r requirements.txt
 $ python manage.py migrate
 $ python manage.py collectstatic
+```
 
 Skip below steps.
 ## Running Locally
